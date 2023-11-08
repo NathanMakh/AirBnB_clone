@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-#!/usr/bin/python3
-""" FileStorage instance """
-
-
-from models.engine.file_storage import FileStorage
-from models.base_model import BaseModel
-from models.user import User
-from models.review import Review
-from models.place import Place
-from models.city import City
-from models.amenity import Amenity
-from models.state import State
-
-storage = FileStorage()
-storage.reload()
-=======
 import os
 from models.base_model import BaseModel
 from models.amenity import Amenity
@@ -36,4 +19,3 @@ else:
     storage = file_storage.FileStorage()
 
 storage.reload()
->>>>>>> 26ff94de27ea6b5d9f5ee96f010aa565168d547d
