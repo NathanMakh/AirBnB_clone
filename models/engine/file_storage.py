@@ -3,7 +3,6 @@
 from json import dump, load, dumps
 from os.path import exists
 from models import base_model, user, place, state, city, amenity, review
-from models.engine.file_storage import FileStorage
 
 BaseModel = base_model.BaseModel
 User = user.User
