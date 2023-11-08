@@ -10,7 +10,6 @@ from models.amenity import Amenity
 from models.place import Place
 from models.review import Review
 from models.user import User
->>>>>>> 3f9ac9f0df72516a04cb800e47fc59f817f986f5
 
 
 class FileStorage:
