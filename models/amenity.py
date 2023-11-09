@@ -1,12 +1,12 @@
 #!/usr/bin/python3
-""" Amenity class """
+"""Defines the amenity class"""
 
-import uuid
-from datetime import datetime
-from models import storage
 from models.base_model import BaseModel
 
 
 class Amenity(BaseModel):
-    """ Amenity class """
+    """
+    child class of BaseModel
+    has one attribute - name(empty string)
+    """
     name = ""
