@@ -1,14 +1,12 @@
 #!/usr/bin/python3
-""" Place class """
+"""Defines the place class"""
 
-import uuid
-from datetime import datetime
-from models import storage
 from models.base_model import BaseModel
 
 
 class Place(BaseModel):
-    """ Place class """
+    """Child class of BaseModel"""
+
     city_id = ""
     user_id = ""
     name = ""
