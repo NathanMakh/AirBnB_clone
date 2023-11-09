@@ -1,15 +1,15 @@
 #!/usr/bin/python3
-"""Review class
-"""
+"""Defines the review class"""
 
-import uuid
-from datetime import datetime
-from models import storage
 from models.base_model import BaseModel
 
 
 class Review(BaseModel):
-    """ Review class """
+    """
+    child class of BaseModel
+    has 3 attributes(empty strings) - place_id, user_id and text
+    """
+
     place_id = ""
     user_id = ""
     text = ""
