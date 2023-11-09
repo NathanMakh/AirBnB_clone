@@ -1,12 +1,11 @@
 #!/usr/bin/python3
-""" User class """
+"""Defines the user class"""
 
-import uuid
 from models.base_model import BaseModel
 
 
 class User(BaseModel):
-    """ User class """
+    """Child class of BaseModel"""
     email = ""
     password = ""
     first_name = ""
