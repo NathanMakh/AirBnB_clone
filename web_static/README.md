@@ -1,3 +1,16 @@
+0x01. AirBnB clone - Web static
+HTML
+CSS
+Front-end
+ By: Guillaume
+ Weight: 1
+ Project will start Nov 16, 2023 6:00 AM, must end by Nov 21, 2023 6:00 AM
+ Manual QA review must be done (request it when you are done with the project)
+Concepts
+For this project, we expect you to look at these concepts:
+
+HTML/CSS
+The trinity of front-end quality
 g Lists” included)
 Inline Styles in HTML
 Specifics on CSS Specificity
